@@ -73,7 +73,7 @@ Styles are alternate personality packs. Examples: `tsundere`, `mentor`, `formal`
 For CLI or library changes:
 
 ```bash
-git clone https://github.com/narukoshin/buddy-i18n
+git clone https://github.com/hybirdss/buddy-i18n
 cd buddy-i18n
 npm install
 node bin/cli.mjs list    # test locally
