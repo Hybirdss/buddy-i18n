@@ -1,0 +1,38 @@
+{
+  "name": "buddy-i18n",
+  "version": "1.0.0",
+  "description": "Make your Claude Code buddy speak your language",
+  "type": "module",
+  "bin": {
+    "buddy-i18n": "./bin/cli.mjs"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "locales/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "buddy",
+    "companion",
+    "i18n",
+    "localization",
+    "multilingual",
+    "personality",
+    "pet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/narukoshin/buddy-i18n"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0",
+    "chalk": "^5.3.0"
+  }
+}
